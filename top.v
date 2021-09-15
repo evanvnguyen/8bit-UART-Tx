@@ -23,21 +23,24 @@
 module top(
         input [7:0] data,
         input clk,
-        input reset,
-        input transmit,
+        input btn0,
+        //input transmit,
+        input btn1,
         output txd,
         output txd_debug,
-        output btn_debug,
+        output transmit_debug,
+        output btn_debug, 
         output clk_debug
     );
     
     wire transmit_out;
     
-    tx t1(clk, reset, data, transmit, txd);
-    debounce_signals db(clk, btn, transmit_out);
+    tx t1(.clk(clk), .reset(btn0), .data(data), .transmit(transmit_out), .txd(txd));
+    debounce_signals db(.clk(clk), .btn(btn1), .transmit(transmit_out));
     
     assign txd_debug = txd;
     assign transmit_debug = transmit_out;
-    assign btn_debug = reset;
+    assign btn_debug = btn1;
     assign clk_debug = clk;
+
 endmodule
