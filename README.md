@@ -46,3 +46,9 @@ I configured my .xdc file for use with a Nexys 4 DDR.
 ## Issues
 Though the source files are mostly working, I am still working on configuring button debouncing. 
 
+## Useful references
+[UART Basics](https://cs140e.sergio.bz/notes/lec4/uart-basics.pdf)
+
+[Switch Debouncing](https://my.eng.utah.edu/~cs5780/debouncing.pdf)
+
+[Handling Metastability](http://www.gstitt.ece.ufl.edu/courses/spring11/eel4712/lectures/metastability/EEIOL_2007DEC24_EDA_TA_01.pdf)
