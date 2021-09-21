@@ -44,8 +44,9 @@ I configured my .xdc file for use with a Nexys 4 DDR.
 
     - Assign ```JA[6]``` to ```clk_debug```
     
-## Issues
-Though the source files are mostly working, I am still working on configuring button debouncing. 
+## TO-DO
+- Testbench
+- Optimize debouncing
 
 ## Useful references
 [UART Basics](https://cs140e.sergio.bz/notes/lec4/uart-basics.pdf)
