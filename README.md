@@ -52,4 +52,4 @@ Though the source files are mostly working, I am still working on configuring bu
 
 [Switch Debouncing](https://my.eng.utah.edu/~cs5780/debouncing.pdf)
 
-[Handling Metastability](http://www.gstitt.ece.ufl.edu/courses/spring11/eel4712/lectures/metastability/EEIOL_2007DEC24_EDA_TA_01.pdf)
+[Understanding clock domain crossing issues](http://www.gstitt.ece.ufl.edu/courses/spring11/eel4712/lectures/metastability/EEIOL_2007DEC24_EDA_TA_01.pdf)
