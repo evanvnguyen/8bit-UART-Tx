@@ -25,7 +25,7 @@ When we press or release a button or a switch, two metal parts come into contact
 ## Specifications
 The module is set at a baud-rate of 9600. To achieve and accurate counter for my transmitter module and my internal clock:
 
-```1000MHZ / 9600 BR = 10415```
+```100MHZ / 9600 BR = 10415```
 
 ## How to use
 I configured my .xdc file for use with a Nexys 4 DDR. 
